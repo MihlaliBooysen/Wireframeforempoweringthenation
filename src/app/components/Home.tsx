@@ -67,7 +67,7 @@ export function Home() {
                 </Button>
               </Link>
               <Link to="/quote">
-                <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10 text-lg px-8">
+                <Button size="lg" className="bg-[#003366] hover:bg-[#F97316] text-white text-lg px-8">
                   Get a Quote
                 </Button>
               </Link>
@@ -124,7 +124,7 @@ export function Home() {
               </div>
 
               <Link to="/courses">
-                <Button className="bg-[#003366] hover:bg-[#002147] text-white">
+                <Button className="bg-[#003366] hover:bg-[#F97316] text-white">
                   Explore All Courses
                   <ArrowRight className="ml-2 w-4 h-4" />
                 </Button>

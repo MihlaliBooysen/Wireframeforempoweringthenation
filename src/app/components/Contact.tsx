@@ -214,9 +214,10 @@ export function Contact() {
                   <div>
                     <p className="font-semibold text-sm text-gray-600 mb-1">Address</p>
                     <p className="text-gray-900">
-                      123 Training Street<br />
-                      Johannesburg<br />
-                      South Africa
+                      House Vincent, 3rd Floor<br />
+                      Wynberg Mews<br />
+                      Cnr Brodie & Ebenezer Rd<br />
+                      Wynberg, Cape Town 7800
                     </p>
                   </div>
                 </div>
@@ -273,6 +274,31 @@ export function Contact() {
               </CardContent>
             </Card>
           </div>
+        </div>
+
+        {/* Map Section */}
+        <div className="mt-12">
+          <Card>
+            <CardHeader>
+              <CardTitle>Find Us</CardTitle>
+              <CardDescription>Visit our training center in Wynberg, Cape Town</CardDescription>
+            </CardHeader>
+            <CardContent className="p-0">
+              <div className="w-full h-[400px] rounded-b-lg overflow-hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.7342267895824!2d18.46747277602908!3d-33.99074507316688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc43a84e9e3d89%3A0x8c8c8c8c8c8c8c8c!2sBrodie%20Rd%2C%20Wynberg%2C%20Cape%20Town%2C%207800!5e0!3m2!1sen!2sza!4v1234567890123!5m2!1sen!2sza"
+                  width="100%"
+                  height="400"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Empowering the Nation Location"
+                  className="w-full h-full"
+                ></iframe>
+              </div>
+            </CardContent>
+          </Card>
         </div>
       </div>
     </div>

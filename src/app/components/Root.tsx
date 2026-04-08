@@ -143,8 +143,10 @@ export function Root() {
             <div>
               <h3 className="font-bold text-lg mb-4">Contact Us</h3>
               <ul className="space-y-2 text-sm text-gray-300">
-                <li>123 Training Street</li>
-                <li>Johannesburg, South Africa</li>
+                <li>House Vincent, 3rd Floor</li>
+                <li>Wynberg Mews</li>
+                <li>Cnr Brodie & Ebenezer Rd</li>
+                <li>Wynberg, Cape Town 7800</li>
                 <li className="pt-2">
                   <a href="tel:+27123456789" className="hover:text-[#F97316] transition">
                     +27 12 345 6789
